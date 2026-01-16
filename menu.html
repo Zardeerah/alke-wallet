@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Configuración básica -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Contenedor principal -->
+    <section class="container">
+      <!-- Título -->
+      <h2>Menu Principal</h2>
+
+      <!-- Mostrar saldo -->
+      <div>
+        <h3>Saldo actual: <span id="saldo"></span></h3>
+      </div>
+
+      <!-- Botones del menú -->
+      <div class="d-flex justify-content-center gap-2">
+        <!-- Depositar -->
+        <a class="btn btn-primary" id="depositar">
+          <i class="fa-solid fa-circle-plus me-2"></i> Depositar
+        </a>
+
+        <!-- Enviar dinero -->
+        <a class="btn btn-primary" id="enviar">
+          <i class="fa-solid fa-money-bill-transfer me-2"></i> Enviar Dinero
+        </a>
+
+        <!-- Ver movimientos -->
+        <a class="btn btn-primary" id="movimientos">
+          <i class="fa-solid fa-list me-2"></i> Movimientos
+        </a>
+
+        <!-- Mensaje -->
+        <p id="mensaje" class="text-center mt-3"></p>
+      </div>
+
+      <!-- Cerrar sesión -->
+      <div>
+        <button id="cerrarSesion" class="btn btn-danger">Cerrar sesión</button>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- JS del menú -->
+    <script src="menu.js"></script>
+  </body>
+</html>

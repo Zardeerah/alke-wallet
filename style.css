@@ -1,0 +1,95 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px;
+  margin: 0px;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: inset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  width: 200px;
+  padding: 10px;
+  border: 0px solid black;
+  box-shadow: inset;
+}
+
+section {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 400px;
+  padding: 10px;
+  box-shadow: inset;
+  background-color: #6750a4;
+}
+
+input {
+  border-radius: 100px;
+  padding: auto;
+  margin: auto;
+  border: 10px solid black;
+  width: 200px;
+  height: 30px;
+  border-color: black;
+}
+
+form {
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 350px;
+  padding: 10px;
+  box-shadow: inset;
+  background-color: #f3f1f7 !important;
+}
+
+.container {
+  margin-top: 80px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #6c0e74;
+}
+
+h3 {
+  text-align: center;
+  border-radius: 10px;
+  width: 350px;
+  padding: 50px;
+  box-shadow: inset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: blanchedalmond;
+}
+button {
+  border-radius: 100px;
+  padding: auto;
+  margin-top: 10px;
+  border: 10px solid black;
+  width: 150px;
+  height: 55px;
+  border-color: black;
+}
+
+.input-personalizado {
+  border-radius: 8px;
+}
